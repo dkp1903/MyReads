@@ -1,15 +1,16 @@
-# My-Reads
-A bookshelf app that allows user to select and categorize books as you have read, are currently reading, or want to read. The project emphasizes using React to build the application and provides an API server and client library that you will use to persist information as you interact with the application.
+> ## My-Reads
+> A Book management application made in React that allows user to select and categorize books as you have read, are currently reading, 
+> or want to read. 
 
-## Requirements
-* npm
+> ## Requirements
+> * npm
 
-## How to Run:
-
-1. [Download](https://github.com/sagarchoudhary96/My-Reads/archive/master.zip) or [Clone](https://github.com/sagarchoudhary96/My-Reads.git) the Repository.
-2. Run `npm install` to install the project dependencies.
-3. Run the app using `npm start`.
-4. App can be seen at: `localhost:3000`. 
+> ## How to Run:
+> 
+> 1. [Clone](https://github.com/dkp1903/MyReads.git) the Repository.
+> 2. Run `npm i` to install the project dependencies.
+> 3. Run the app using `npm start`.
+> 4. App can be seen at: `localhost:3000`. 
 
 ## Backend Server
 
@@ -36,3 +37,5 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 ## create-react-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
+> @dkp1903
