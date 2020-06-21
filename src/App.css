@@ -5,14 +5,14 @@ body {
   line-height: 1.5;
 }
 body, .app {
-  background: white;
+  background: green;
 }
 
 /* main page */
 
 .list-books-title {
   padding: 10px 0;
-  background: #ef5350;
+  background: black;
   text-align: center;
 }
 .list-books-title h1 {

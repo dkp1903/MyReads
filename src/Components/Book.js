@@ -25,10 +25,10 @@ class Book extends Component {
             }}></div>
             <div className="book-shelf-changer">
               <select onChange={this.change_bookShelf} value={book.shelf}>
-                <option value="none" disabled>Move to...</option>
-                <option value="currentlyReading">Currently Reading</option>
-                <option value="wantToRead">Want to Read</option>
-                <option value="read">Read</option>
+                <option value="none" disabled>Move to</option>
+                <option value="currentlyReading">On it</option>
+                <option value="wantToRead">Done</option>
+                <option value="read">Wishlist</option>
                 <option value="none">None</option>
               </select>
             </div>
