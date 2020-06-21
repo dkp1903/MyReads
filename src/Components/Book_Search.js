@@ -50,7 +50,9 @@ class BookSearch extends Component {
           })
         }
       })
-    } else {
+    } 
+    //else block added
+    else {
       this.setState({Books: [], query: ''})
     }
   }
