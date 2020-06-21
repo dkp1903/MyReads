@@ -55,7 +55,7 @@ class BookSearch extends Component {
     }
   }
 
-  add_book = (book, shelf) => {
+  addABook = (book, shelf) => {
     this.props.onChange(book, shelf)
   }
 
@@ -71,7 +71,7 @@ class BookSearch extends Component {
         <div className="search-books-results">
           <ol className="books-grid">
             {this.state.query.length > 0 && this.state.Books.map((book, index) => (<Book book={book} key={index} onUpdate={(shelf) => {
-              this.add_book(book, shelf)
+              this.addABook(book, shelf)
             }}/>))}
           </ol>
         </div>
