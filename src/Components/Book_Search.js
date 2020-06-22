@@ -42,7 +42,10 @@ class BookSearch extends Component {
   search_books = (val) => {
     if (val.length !== 0) {
       BooksAPI.search(val, 10).then((books) => {
-        if (books.length > 0) {
+        if(books.error){
+          this.setState({Books: []});
+        }
+        else if (books.length > 0) {
           books = books.filter((book) => (book.imageLinks))
           books = this.changeBookShelf(books)
           this.setState(() => {
